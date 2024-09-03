@@ -1,9 +1,10 @@
 # Capacitor Keycloak-JS Authentication implementation with In-App Browser
 
+<div style="display: flex">
 <img src="resources/android_auth.gif" alt="Android Authentication" height="400" />
 <img src="resources/ios_auth.gif" alt="iOS Authentication" height="400" />
 <img src="resources/web_auth.gif" alt="Web Authentication" height="400" />
-
+</div>
 <br />
 
 ## Why Does This Exist?
