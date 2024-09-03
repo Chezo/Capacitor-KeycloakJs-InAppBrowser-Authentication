@@ -1,0 +1,7 @@
+{
+  "name": "capacitor-keycloakjs-authentication",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

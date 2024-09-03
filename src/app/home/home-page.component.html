@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+
+      Created by <a href="https://zsolt-nagy.com">Zsolt Nagy</a>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong *ngIf="!user">Please sing in!</strong>
+    <strong *ngIf="user!">Welcome {{ user!.username }}</strong>
+    <div>
+      <ion-button *ngIf="!user" (click)="login()">Login</ion-button>
+      <ion-button *ngIf="user!" (click)="logout()">Logout</ion-button>
+    </div>
+  </div>
+</ion-content>
