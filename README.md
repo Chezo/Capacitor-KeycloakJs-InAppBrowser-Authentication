@@ -9,7 +9,7 @@
 
 ## Why Does This Exist?
 
-I searched high and low for a simple solution to integrate Keycloak authentication into my Capacitor app, but guess what? I couldn't find exactly what I needed. So, I rolled up my sleeves and built it myself! 😎
+I searched high and low for a simple project that integrates Keycloak authentication with Capacitor and InAppBrowser to bootstrap my project idea, but guess what? I couldn't find exactly what I needed. So, I rolled up my sleeves and built it myself! 😎
 
 ## What Is This?
 
